@@ -17,6 +17,8 @@
 		BF16B4902AE01FE500A3CFEE /* actualTableNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF16B48F2AE01FE500A3CFEE /* actualTableNotesTests.swift */; };
 		BF16B49A2AE01FE500A3CFEE /* actualTableNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF16B4992AE01FE500A3CFEE /* actualTableNotesUITests.swift */; };
 		BF16B49C2AE01FE500A3CFEE /* actualTableNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF16B49B2AE01FE500A3CFEE /* actualTableNotesUITestsLaunchTests.swift */; };
+		BFE81E932AE172CD00C2A4CC /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE81E922AE172CD00C2A4CC /* Struct.swift */; };
+		BFE81E952AE1744D00C2A4CC /* CrazyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE81E942AE1744D00C2A4CC /* CrazyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		BF16B4952AE01FE500A3CFEE /* actualTableNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = actualTableNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF16B4992AE01FE500A3CFEE /* actualTableNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actualTableNotesUITests.swift; sourceTree = "<group>"; };
 		BF16B49B2AE01FE500A3CFEE /* actualTableNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actualTableNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFE81E922AE172CD00C2A4CC /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		BFE81E942AE1744D00C2A4CC /* CrazyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		BF16B4742AE01FE300A3CFEE /* actualTableNotes */ = {
 			isa = PBXGroup;
 			children = (
+				BFE81E922AE172CD00C2A4CC /* Struct.swift */,
+				BFE81E942AE1744D00C2A4CC /* CrazyCell.swift */,
 				BF16B4752AE01FE300A3CFEE /* AppDelegate.swift */,
 				BF16B4772AE01FE300A3CFEE /* SceneDelegate.swift */,
 				BF16B4792AE01FE300A3CFEE /* ViewController.swift */,
@@ -264,7 +270,9 @@
 				BF16B4802AE01FE300A3CFEE /* actualTableNotes.xcdatamodeld in Sources */,
 				BF16B47A2AE01FE300A3CFEE /* ViewController.swift in Sources */,
 				BF16B4762AE01FE300A3CFEE /* AppDelegate.swift in Sources */,
+				BFE81E932AE172CD00C2A4CC /* Struct.swift in Sources */,
 				BF16B4782AE01FE300A3CFEE /* SceneDelegate.swift in Sources */,
+				BFE81E952AE1744D00C2A4CC /* CrazyCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
